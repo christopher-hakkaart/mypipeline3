@@ -4,6 +4,8 @@
 
 In the interest of fostering an open, collaborative, and welcoming environment, we as contributors and maintainers of nf-core pledge to making participation in our projects and community a harassment-free experience for everyone, regardless of:
 
+I do what I want!
+
 - Age
 - Ability
 - Body size

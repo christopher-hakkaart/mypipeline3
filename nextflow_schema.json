@@ -274,6 +274,31 @@
                     "hidden": true
                 }
             }
+        },
+        "fastp": {
+            "title": "Fastp",
+            "type": "object",
+            "description": "Heeliooooo!",
+            "default": "",
+            "properties": {
+                "save_trimmed_fail": {
+                    "type": "boolean",
+                    "description": "Hello world",
+                    "fa_icon": "fas fa-calendar-check",
+                    "help_text": "This is extra help text"
+                },
+                "save_merged": {
+                    "type": "boolean",
+                    "description": "Hello again",
+                    "fa_icon": "fas fa-bible"
+                },
+                "adapters": {
+                    "type": "string",
+                    "description": "This is adapters",
+                    "fa_icon": "fas fa-blender"
+                }
+            },
+            "fa_icon": "fas fa-calculator"
         }
     },
     "allOf": [
@@ -291,6 +316,9 @@
         },
         {
             "$ref": "#/definitions/generic_options"
+        },
+        {
+            "$ref": "#/definitions/fastp"
         }
     ]
 }
